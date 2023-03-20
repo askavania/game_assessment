@@ -73,42 +73,42 @@ Below is some information about our cleaned datasets and their features that we 
 From our EDA, we have gathered the following information;
 
 1. It seems like the gaming industry has been very active since 2017, or at least popular gaming platform A has been doing well and started to collect data since then. The number of games released per year has broken the 5000 mark in 2020. Perhaps this could be due to boost contributed by the effect of stay home period due to covid.
-![Game Trend](https://git.generalassemb.ly/benedictyong/project/blob/master/project_3/Images/games_per_year.jpg)
+![Game Trend](https://github.com/askavania/game_assessment/blob/main/game_description_analysis/Images/games_per_year.jpg)
 
 <br><br>
 2. Discounting the years 2016 and before as well as 2023(since we're only at the 1st month), the ceiling prices of games seems to have increase year on year.
-![Price of games](https://git.generalassemb.ly/benedictyong/project/blob/master/project_3/Images/prices%20of%20games%20over%20years.jpg)
+![Price of games](https://github.com/askavania/game_assessment/blob/main/game_description_analysis/Images/prices%20of%20games%20over%20years.jpg)
 
 <br><br>
 3. As the p-value of the game price is >0.05, it lets us safely assume that the price has no effect on the positivity of the reviews.
-![OLS](https://git.generalassemb.ly/benedictyong/project/blob/master/project_3/Images/ols%20result.jpg)
+![OLS](https://github.com/askavania/game_assessment/blob/main/game_description_analysis/Images/ols%20result.jpg)
 
 <br><br>
 4. The median percentage for positive reviews is at 81% with the upper percentile at 91%. We can take this into account when determining our threshold for our measure of success for a game.
 
 <br><br>
 5. Looking at Fig 1, there are less number of games as the number of reviews per game increase. That makes sense, as from our domain understanding in gaming, there will be more reviews for more popular games due to the amount of people playing that particular game.
-![fig1](https://git.generalassemb.ly/benedictyong/project/blob/master/project_3/Images/fig1.jpg)
+![fig1](https://github.com/askavania/game_assessment/blob/main/game_description_analysis/Images/fig1.jpg)
 
 <br><br>
 6. Followed by Fig.5, where we observe following;
 There are at least 100 reviews for games that costs between \$20 to \$100, and the number of reviews falls drastically when a game costs more than \$100. It could be due to the high price that leads to less people buying the games, hence resulting in a minimal count of reviews. This could affect our accuracy metric for a successful game. 
 There are most number of reviews in games that costs in the \$70 range and \$100 range(the most number of reviews).
-![Fig5](https://git.generalassemb.ly/benedictyong/project/blob/master/project_3/Images/price%20vs%20reviews.jpg)
+![Fig5](https://github.com/askavania/game_assessment/blob/main/game_description_analysis/Images/price%20vs%20reviews.jpg)
 
 <br><br>
 7. In Fig.2, there is a sharp increase in the counts of 75% positive reviews. 
-![Fig2](https://git.generalassemb.ly/benedictyong/project/blob/master/project_3/Images/fig2.jpg)
+![Fig2](https://github.com/askavania/game_assessment/blob/main/game_description_analysis/Images/fig2.jpg)
 
 <br><br>
 8. We saw from Fig. 3a & 3b that there are usually more outliers in games that has lower number of reviews and that there are substantial amount of games that have been positively reviewed in each group.
 
-![Fig3a](https://git.generalassemb.ly/benedictyong/project/blob/master/project_3/Images/fig3a.jpg)
-![Fig3b](https://git.generalassemb.ly/benedictyong/project/blob/master/project_3/Images/fig%203.b.jpg)
+![Fig3a](https://github.com/askavania/game_assessment/blob/main/game_description_analysis/Images/fig3a.jpg)
+![Fig3b](https://github.com/askavania/game_assessment/blob/main/game_description_analysis/Images/fig%203.b.jpg)
 
 
 Additionally, we also found out there are some frequent words that exists in successful games. 
-![Freqwords](https://git.generalassemb.ly/benedictyong/project/blob/master/project_3/Images/freqwords.jpg)
+![Freqwords](https://github.com/askavania/game_assessment/blob/main/game_description_analysis/Images/freqwords.jpg)
 <br><br>
 
 ---
